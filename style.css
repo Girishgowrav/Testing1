@@ -500,9 +500,10 @@ form select:focus {
   #hamburger span {
     width: 26px;
     height: 3px;
-    background: #ffffff;
+    background: #6b7280;
     border-radius: 2px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.6);
   }
 }
+
 

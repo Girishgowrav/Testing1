@@ -476,8 +476,29 @@ form select:focus {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .video-bg video {
-    display: none;
+    filter: brightness(0.4) contrast(1.1);
+  }
+}
+
+
+/* =========================
+   MOBILE NAVBAR FIX
+========================= */
+@media (max-width: 768px) {
+  #hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+  }
+
+  #hamburger span {
+    width: 26px;
+    height: 3px;
+    background: #ffffff;
+    border-radius: 2px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.6);
   }
 }

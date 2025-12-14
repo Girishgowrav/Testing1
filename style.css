@@ -242,20 +242,23 @@ h1, h2, h3, h4 {
 
 
 .hero-logo {
-  width: 140px;          /* desktop size */
-  max-width: 40vw;
+  width: 190px;          /* BIGGER on desktop */
+  max-width: 55vw;
   height: auto;
-  margin: 0 auto 18px;
+  margin: 0 auto 22px;
   display: block;
+  filter: drop-shadow(0 6px 18px rgba(0,0,0,0.6));
 }
+
 
 /* Mobile adjustment */
 @media (max-width: 768px) {
   .hero-logo {
-    width: 110px;
-    margin-bottom: 14px;
+    width: 150px;        /* Bigger but safe on mobile */
+    margin-bottom: 18px;
   }
 }
+
 
 .event-meta span {
   display: block;
@@ -502,3 +505,4 @@ form select:focus {
     box-shadow: 0 2px 6px rgba(0,0,0,0.6);
   }
 }
+
